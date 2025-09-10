@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pagina 1</title>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="yupi.css">
+    </head>
+    <body>
+    <center>
+        <nav class="navar">
+            <ul class="indice">
+                <li><a href="#participantes">Integrantes</a></li>
+                <li><a href="#problematica">Problematica</a></li>
+                <li><a href="#producto">Producto</a></li>
+                <li><a href="#como">Como</a></li>  
+                <span><a href="#correo" class="correo">xxxxxxx@gmail.com</a></span>
+            </ul>
+        </nav>
+    </center>
+    <br><br><br><br><br><br>
+
+
+    <div class="participantes" id="participantes"></div>
+    <center><h1 id="bienvenida">Integrantes</h1></center>
+    <center><h2 id="bienvenida2">¿Estas buscando el mejor proyecto de comfandi?<br>¡Ya lo encontraste!</h2></center>
+    <center>
+        <h2 class="inicio">Los Integrantes de este proyecto son</h2><br>
+        <ul class="inicio">
+            <div class="Tabla">Santiago Tigreros Santibañez</div>
+            <div class="Tabla">Hector Manuel Ramos Corrales</div>
+            <div class="Tabla">Juan David Lozano Manzano</div>
+            <div class="Tabla">Santiago Pava Benavides</div>
+        </ul>
+    </center>
+    <div class="tarjeta">
+    <center><h3 class="tarjeta-titulo">Hardware</h3></center>
+    </div>
+
+    <div class="contenedor-de-boton">
+            <div class="galeria">
+                <img alt="prueba1" src="https://framerusercontent.com/images/lHjvEt2pMyvwqagskB613deT4LE.png?scale-down-to=1024">
+                <img alt="prueba2" src="https://i.ytimg.com/vi/FkxM7QP7DAk/maxresdefault.jpg">
+                <img alt="prueba3" src="https://framerusercontent.com/images/8sPCeIYByF58PR2hsLRndFi3Y.png?scale-down-to=1024">
+                <img alt="prueba4" src="https://framerusercontent.com/images/UK1OeaRcD67pIKTvw9gbU0Vg.png?scale-down-to=1024">  
+                <img alt="prueba5" src="https://framerusercontent.com/images/bGRxBfpzGaSEuztOrFCKmToSvP0.png?scale-down-to=1024">
+            </div>
+        <button class="btn antes">&#10094;</button>
+        <button class="btn despues">&#10095;</button>
+    </div>
+        <center>
+            <h1 id="bienvenida">Problematica</h1>
+        </center> 
+        <center>   
+
+        <center>
+            <p class="inicio" id="problematica">En la institución educativa Comfandi se ha identificado que muchos estudiantes tienen dificultades para acceder de forma centralizada a la
+                        información de sus proyectos académicos y de investigación. Actualmente, la información está dispersa en diferentes plataformas,
+                        correos y documentos físicos, lo que genera pérdida de tiempo, falta de organización y poca visibilidad del trabajo realizado por los equipos.
+                        Esto ha llevado a:<br><br>
+
+                        1)Desorganización en los equipos de trabajo.<br><br>
+                        2)Dificultad para los docentes al momento de evaluar y<br> dar retroalimentación.<br><br>
+                        3)Poco reconocimiento del esfuerzo de los estudiantes.<br>
+            </p>
+        </center>     
+    </body>
+    <script>
+        const carrusel = document.querySelector(".galeria");
+        const nextBtn = document.querySelector(".despues");
+        const prevBtn = document.querySelector(".antes");
+
+        let scrollAmount = 0;
+        const scrollStep = 320; 
+
+        nextBtn.addEventListener("click", () => {
+        carrusel.scrollBy({ left: scrollStep, behavior: "smooth" });
+        });
+
+        prevBtn.addEventListener("click", () => {
+        carrusel.scrollBy({ left: -scrollStep, behavior: "smooth" });
+        });
+    </script>
+</html>

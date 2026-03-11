@@ -1,83 +1,176 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Pagina 1</title>
-        <meta charset="UTF-8">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="yupi.css">
-    </head>
-    <body>
-    <center>
-        <nav class="navar">
-            <ul class="indice">
-                <li><a href="#participantes">Integrantes</a></li>
-                <li><a href="#problematica">Problematica</a></li>
-                <li><a href="#producto">Producto</a></li>
-                <li><a href="#como">Como</a></li>  
-                <span><a href="#correo" class="correo">xxxxxxx@gmail.com</a></span>
-            </ul>
-        </nav>
-    </center>
-    <br><br><br><br><br><br>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wyrd Works</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/especialidad.css">
+</head>
 
+<body>
 
-    <div class="participantes" id="participantes"></div>
-    <center><h1 id="bienvenida">Integrantes</h1></center>
-    <center><h2 id="bienvenida2">¿Estas buscando el mejor proyecto de comfandi?<br>¡Ya lo encontraste!</h2></center>
-    <center>
-        <h2 class="inicio">Los Integrantes de este proyecto son</h2><br>
-        <ul class="inicio">
-            <div class="Tabla">Santiago Tigreros Santibañez</div>
-            <div class="Tabla">Hector Manuel Ramos Corrales</div>
-            <div class="Tabla">Juan David Lozano Manzano</div>
-            <div class="Tabla">Santiago Pava Benavides</div>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="/imagenes/logo.png" alt="Logo Wyrd Works" class="logo-img">
+            Wyrd Works
+        </div>
+
+        <ul class="menu">
+            <li><a href="#problematica">Problematica</a></li>
+            <li><a href="#participantes">Participantes</a></li>
+            <li><a href="#explicacion">Explicacion</a></li>
+            <li><a href="#modelo3d">Modelo 3D</a></li>
+            <li><a href="mailto:wyrdworks0@gmail.com">Correo</a></li>
         </ul>
-    </center>
-    <div class="tarjeta">
-    <center><h3 class="tarjeta-titulo">Hardware</h3></center>
-    </div>
+    </nav>
 
-    <div class="contenedor-de-boton">
-            <div class="galeria">
-                <img alt="prueba1" src="https://framerusercontent.com/images/lHjvEt2pMyvwqagskB613deT4LE.png?scale-down-to=1024">
-                <img alt="prueba2" src="https://i.ytimg.com/vi/FkxM7QP7DAk/maxresdefault.jpg">
-                <img alt="prueba3" src="https://framerusercontent.com/images/8sPCeIYByF58PR2hsLRndFi3Y.png?scale-down-to=1024">
-                <img alt="prueba4" src="https://framerusercontent.com/images/UK1OeaRcD67pIKTvw9gbU0Vg.png?scale-down-to=1024">  
-                <img alt="prueba5" src="https://framerusercontent.com/images/bGRxBfpzGaSEuztOrFCKmToSvP0.png?scale-down-to=1024">
+    <header class="hero">
+
+        <h1>Wyrd Works</h1>
+
+        <p>
+        ¿Estas buscando el mejor proyecto de comfandi?<br>
+        <strong>¡Ya lo encontraste!</strong>
+        </p>
+
+    </header>
+
+
+    <section class="galeria-section">
+
+            <h2>Galeria/Ejemplos de la problematica</h2>
+
+        <div class="contenedor-de-boton">
+
+                <div class="galeria">
+
+                    <img src="/imagenes/esccc.jpeg  ">
+                    <img src="/imagenes/essssss.jpeg">
+                    <img src="/imagenes/ñee.jpg">
+                    <img src="/imagenes/final.jpeg">
+                    <img src="https://i.ytimg.com/vi/FkxM7QP7DAk/maxresdefault.jpg">
+
+                </div>
+
+            <button class="btn antes">&#10094;</button>
+            <button class="btn despues">&#10095;</button>
+
+        </div>
+
+    </section>
+
+
+    <section id="problematica" class="card">
+        <h2>Problematica</h2>
+
+        <p>
+        En zonas del colegio (huerta, pasillos externos o punto de evacuación)
+        la iluminación y señalización falla durante cortes eléctricos breves.
+
+        Se requiere un punto de luz autónomo alimentado por energía eólica en miniatura
+        que almacene energía y alimente un circuito simple.
+        </p>
+    </section>
+
+
+    <section id="participantes" class="participantes">
+
+        <h2>Integrantes</h2>
+    <div class="grid-personas">
+
+            <div class="persona">
+                <img src="/imagenes/ositoperu.jpg">
+                <h4>Hector Manuel</h4>
+                <p>Encargado de el diseño y creacion de la maqueta 3D</p>
             </div>
-        <button class="btn antes">&#10094;</button>
-        <button class="btn despues">&#10095;</button>
-    </div>
-        <center>
-            <h1 id="bienvenida">Problematica</h1>
-        </center> 
-        <center>   
 
-        <center>
-            <p class="inicio" id="problematica">En zonas del colegio (huerta, pasillos externos o punto de evacuación)
-                            la iluminación y señalización falla o es inexistente durante cortes eléctricos breves. Se 
-                            requiere un punto de luz/señal autónomo, alimentado por energía eólica en miniatura (hélices),
-                            que almacene energía y alimente un circuito simple (mínimo: LED de alta luminosidad; deseable:
-                            LED + zumbador breve de alerta o un micro-mensaje luminoso).
+            <div class="persona">
+                <img src="/imagenes/yoyo.jpg">
+                <h4>Santiago Tigreros</h4>
+                <p>Encargado de la programacion <br> y el mantenimiento de el proyecto</p>
+            </div>
+
+            <div class="persona">
+                <img src="/imagenes/pava.jpg">
+                <h4>Santiago Pava</h4>
+                <p>Encargado de la investigacion <br> y diseño de las presentaciones</p>
+            </div>
+
+            <div class="persona">
+                <img src="/imagenes/Juanda.jpg">
+                <h4>Juan David</h4>
+                <p>Encargado de la investigacion <br> sobre casos reales y analisis sobre estos</p>
+            </div>
+
+    </div>
+
+    </section>
+    <section id="explicacion" class="card">
+
+        <h2>Explicacion</h2>
+
+            <p>
+            Mediante un pitillo en una botella el agua cae a un molino que produce
+            energía hidráulica.
+
+            Esta energía mueve una cadena que impulsa un motor generador.
+
+            La corriente alimenta un interruptor que activa una bomba
+            y también envía energía a un LED que simula los bombillos.
             </p>
-        </center>     
-    </body>
+
+        <div class="video-contenedor">
+
+            <iframe src="https://www.youtube.com/embed/06V0V2TMAXM"></iframe>
+            <iframe src="https://www.youtube.com/embed/_2camBZqK0E"></iframe>
+            <iframe src="https://www.youtube.com/embed/9AiUrZT0hQU"></iframe>
+
+        </div>
+    </section>
+    <section id="modelo3d" class="modelo">
+
+        <h2>Modelo 3D</h2>
+        <img src="/imagenes/modelo 3d.jpeg">
+
+    </section>
+
+    <footer class="footer">
+
+        <div class="footer-contenido">
+
+            <h3>Wyrd Works</h3>
+
+            <p>Proyecto escolar sobre generación de energía alternativa.</p>
+
+            <p>Contacto: 
+                <a href="mailto:wyrdworks0@gmail.com">wyrdworks0@gmail.com</a>
+            </p>
+
+            <p class="copyright">
+                © 2026 Wyrd Works - Proyecto Comfandi
+            </p>
+
+        </div>
+
+    </footer>   
+
+
     <script>
         const carrusel = document.querySelector(".galeria");
         const nextBtn = document.querySelector(".despues");
         const prevBtn = document.querySelector(".antes");
 
-        let scrollAmount = 0;
-        const scrollStep = 320; 
+        const scrollStep = 320;
 
         nextBtn.addEventListener("click", () => {
-        carrusel.scrollBy({ left: scrollStep, behavior: "smooth" });
+            carrusel.scrollBy({ left: scrollStep, behavior: "smooth" });
         });
 
         prevBtn.addEventListener("click", () => {
-        carrusel.scrollBy({ left: -scrollStep, behavior: "smooth" });
+            carrusel.scrollBy({ left: -scrollStep, behavior: "smooth" });
         });
     </script>
+
+</body>
 </html>
-
-

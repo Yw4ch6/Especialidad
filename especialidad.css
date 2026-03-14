@@ -210,6 +210,12 @@ padding:20px;
 transition:0.3s;
 }
 
+.mejora-centro{
+grid-column: 1 / -1;
+justify-self: center;
+max-width: 300px;
+}
+
 .mejora:hover{
 transform:translateY(-8px);
 box-shadow:0 0 20px white;

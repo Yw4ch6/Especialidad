@@ -186,6 +186,7 @@ flex-wrap:wrap;
 .btn-diapositivas{
 display:inline-block;
 padding:15px 35px;
+max-width:300px;
 
 background:linear-gradient(
 135deg,

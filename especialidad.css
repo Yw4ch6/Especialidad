@@ -421,6 +421,17 @@ list-style:none;
 margin-bottom:12px;
 }
 
+.footer-col h3{
+background:linear-gradient(
+90deg,
+white,
+#d4a017
+);
+
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
 .footer-col a{
 color:#cfcfcf;
 text-decoration:none;
